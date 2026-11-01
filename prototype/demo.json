@@ -1,0 +1,146 @@
+{
+  "config": {
+    "name": "Commercial Solar Installation",
+    "evaluation_date": "2026-01-01",
+    "experience_start": "2021-01-01",
+    "budget": 260000,
+    "deadline": 16,
+    "insurance_min": 5000000,
+    "targets": {
+      "projects": 15,
+      "price": 200000,
+      "weeks": 8,
+      "panel": 25,
+      "workmanship": 12
+    },
+    "weights": {
+      "experience": 30,
+      "price": 25,
+      "timeline": 15,
+      "warranty": 15,
+      "team": 15
+    }
+  },
+  "proposals": [
+    {
+      "id": "A",
+      "facts": {
+        "licence": true,
+        "wsib": true,
+        "insurance": 5000000,
+        "projects": 14,
+        "price": 238000,
+        "weeks": 12,
+        "panel": 25,
+        "workmanship": 10,
+        "lead": true,
+        "crew": true,
+        "safety": true,
+        "monitoring": true
+      },
+      "sources": {},
+      "evidence": {},
+      "warnings": [],
+      "approved": true,
+      "failed_documentation": false,
+      "review_note": "Demonstration of expected review outcome; source evidence not included."
+    },
+    {
+      "id": "B",
+      "facts": {
+        "licence": null,
+        "wsib": true,
+        "insurance": 5000000,
+        "projects": 6,
+        "price": 189500,
+        "weeks": 10,
+        "panel": 25,
+        "workmanship": 5,
+        "lead": null,
+        "crew": null,
+        "safety": null,
+        "monitoring": null
+      },
+      "sources": {},
+      "evidence": {},
+      "warnings": [],
+      "approved": true,
+      "failed_documentation": true,
+      "review_note": "Demonstration of expected review outcome; source evidence not included."
+    },
+    {
+      "id": "C",
+      "facts": {
+        "licence": true,
+        "wsib": true,
+        "insurance": 5000000,
+        "projects": null,
+        "price": 244000,
+        "weeks": 14,
+        "panel": 25,
+        "workmanship": 10,
+        "lead": true,
+        "crew": true,
+        "safety": null,
+        "monitoring": null
+      },
+      "sources": {},
+      "evidence": {},
+      "warnings": [
+        "Instruction attempt requires human review"
+      ],
+      "approved": true,
+      "failed_documentation": false,
+      "review_note": "Demonstration of expected review outcome; source evidence not included."
+    },
+    {
+      "id": "D",
+      "facts": {
+        "licence": true,
+        "wsib": true,
+        "insurance": 5000000,
+        "projects": 11,
+        "price": 231000,
+        "weeks": null,
+        "panel": 25,
+        "workmanship": 10,
+        "lead": true,
+        "crew": null,
+        "safety": true,
+        "monitoring": null
+      },
+      "sources": {},
+      "evidence": {},
+      "warnings": [],
+      "approved": true,
+      "failed_documentation": false,
+      "review_note": "Demonstration of expected review outcome; source evidence not included."
+    },
+    {
+      "id": "E",
+      "facts": {
+        "licence": true,
+        "wsib": true,
+        "insurance": 5000000,
+        "projects": 8,
+        "price": 242500,
+        "weeks": 13,
+        "panel": 25,
+        "workmanship": 12,
+        "lead": true,
+        "crew": true,
+        "safety": true,
+        "monitoring": true
+      },
+      "sources": {},
+      "evidence": {},
+      "warnings": [],
+      "approved": true,
+      "failed_documentation": false,
+      "review_note": "Demonstration of expected review outcome; source evidence not included."
+    }
+  ],
+  "demo": true,
+  "actor": "",
+  "reason": ""
+}
